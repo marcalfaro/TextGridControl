@@ -8,7 +8,12 @@
                 .Add("External")
                 .Add("Table")
             End With
-            For i As Integer = 1 To 5
+
+            .Rows.Add({1, $"Marc", "99"})
+            .Rows.Add({2, $"Alfaro", "99"})
+            .Rows.Add({3, $"TextGrid", "99"})
+
+            For i As Integer = 4 To 8
                 .Rows.Add({i, $"Person {i}", $"{i * 10}"})
             Next
         End With
