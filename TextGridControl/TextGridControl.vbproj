@@ -101,6 +101,12 @@
     <Compile Include="ucTextGrid.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="ucTextGrid2.Designer.vb">
+      <DependentUpon>ucTextGrid2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucTextGrid2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -114,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucTextGrid.resx">
       <DependentUpon>ucTextGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTextGrid2.resx">
+      <DependentUpon>ucTextGrid2.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
