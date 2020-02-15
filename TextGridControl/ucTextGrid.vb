@@ -125,4 +125,12 @@ Public Class ucTextGrid
             Debug.Print(ex.Message)
         End Try
     End Sub
+
+    'Protected Overrides ReadOnly Property CreateParams As CreateParams
+    '    Get
+    '        Dim cp = MyBase.CreateParams
+    '        cp.Style = cp.Style Or &H840000
+    '        Return cp
+    '    End Get
+    'End Property
 End Class
